@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&family=Poppins:wght@600;700&display=swap");
+
+* {
+  font-family: "Mulish", sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header section styles */
+.header-container {
+  max-width: 1440px;
+  margin: 15px auto;
+  display: flex;
+  border: 2px solid red;
+  align-items: center;
+}
+.icon {
+  color: #ff5400;
+  font-size: 2.65rem;
+  display: flex;
+}
+.site-name {
+  color: #131318;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+#wander {
+  color: #ff5400;
+}
