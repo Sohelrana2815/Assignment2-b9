@@ -8,11 +8,10 @@
   box-sizing: border-box;
 }
 
-/* Header section styles */
+/* Site name section styles */
 .header-container {
   margin: 30px auto;
   display: flex;
-  border: 2px solid red;
   align-items: center;
   max-width: 1440px;
 }
@@ -29,7 +28,7 @@
 #wander {
   color: #ff5400;
 }
-/* website name section */
+/* End website name section */
 
 /* banner section styles */
 
@@ -96,4 +95,4 @@
   font-size: 1rem;
   margin-left: 8px;
 }
-/* Header Section End */
+/* End banner Section */
