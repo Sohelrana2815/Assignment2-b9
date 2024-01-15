@@ -10,11 +10,11 @@
 
 /* Header section styles */
 .header-container {
-  max-width: 1440px;
   margin: 15px auto;
   display: flex;
   border: 2px solid red;
   align-items: center;
+  max-width: 1440px;
 }
 .icon {
   color: #ff5400;
