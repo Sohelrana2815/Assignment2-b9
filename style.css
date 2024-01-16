@@ -40,7 +40,7 @@
 .banner-container img {
   max-width: 1170px;
   height: auto;
-  border-radius: 1rem;
+  border-radius: 16px;
   background: linear-gradient(
     180deg,
     rgba(19, 19, 24, 0.8) 0%,
@@ -89,10 +89,366 @@
   text-align: center;
   cursor: pointer;
 }
-#btn-icon {
+.search-icon {
   width: 26px;
   height: 26px;
   font-size: 1rem;
   margin-left: 8px;
 }
 /* End banner Section */
+
+/* start main section */
+
+.main-section-container {
+  width: 1440px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: flex;
+}
+.main-text-container .headline {
+  color: #131318;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.headline {
+  font-size: 2.5rem;
+}
+.main-text-container {
+  width: 800px;
+  padding: 10px;
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+}
+.main-text-container > ul {
+  padding-left: 25px;
+}
+.ul {
+  margin-top: 30px;
+  line-height: 3;
+}
+.main-des {
+  margin-top: 26px;
+  line-height: 2;
+}
+
+.main-text-container .btn-primary {
+  margin: 32px 0;
+  text-align: center;
+  padding: 14px 36px;
+}
+
+.place-container {
+  max-width: 1170px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  padding: 25px;
+}
+.place-container .place-des {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 24px;
+  padding: 30px;
+}
+.place-img-container {
+  max-width: 1440px;
+  margin-top: 24px;
+  margin: 0 auto;
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
+.place-img-container {
+  margin-top: 25px;
+}
+/* end place img */
+/* card section */
+.card-container {
+  border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.2);
+  background: rgba(251, 181, 99, 0.05);
+  width: 573px;
+  height: 284px;
+  margin: 0 20%;
+  padding: 36px;
+}
+.card-detail .headline {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.card-des {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+.location {
+  position: relative;
+}
+.location-container {
+  padding: 36px;
+  position: absolute;
+  border-radius: 16px;
+  border: 1px solid rgba(41, 206, 246, 0.2);
+  background: rgba(41, 206, 246, 0.05);
+  width: 573px;
+  height: 284px;
+  right: 0;
+  bottom: 0px;
+  left: 980px;
+}
+.location-container .headline {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.location-container .card-des {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+}
+.price {
+  position: relative;
+}
+.price-container {
+  position: absolute;
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.2);
+  background: rgba(233, 68, 68, 0.05);
+  width: 573px;
+  height: 284px;
+  left: 700px;
+  margin-top: 25px;
+  padding: 36px;
+}
+.price-detail .headline {
+  color: #131318;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+.price-detail .card-des {
+  color: #5a5a5d;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.info {
+  border-radius: 16px;
+  border: 1px solid #ff5400;
+  width: 474px;
+  height: 422px;
+  padding: 50px;
+  margin-top: 400px;
+  margin-left: 400px;
+}
+.info .info-title {
+  color: #131318;
+  font-size: 24px;
+  font-weight: 800;
+}
+.info .info-des {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.info-input input {
+  margin-top: 50px;
+  width: 393px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px;
+}
+hr {
+  background: rgba(19, 19, 24, 0.1);
+  width: 390px;
+}
+.info-pic {
+  position: relative;
+}
+.info-pic img {
+  position: absolute;
+  right: 0;
+  bottom: 3px;
+  left: 980px;
+}
+.tag-section {
+  position: relative;
+}
+.tag {
+  right: 0;
+  bottom: 50px;
+  left: 1320px;
+  position: absolute;
+  padding: 15px;
+  text-align: center;
+  width: 324px;
+  height: 120px;
+  transform: rotate(-19.628deg);
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #ff5400;
+}
+.tag-title {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+.tag-des {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 800;
+}
+/* End main section */
+/* start footer */
+.footer-container {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+  display: flex;
+}
+.icon,
+.site-name {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.footer-des {
+  width: 1440px;
+  margin: 0 auto;
+  color: #5a5a5d;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.social-icon a {
+  color: #131318;
+  font-size: 1.2rem;
+}
+.social-icon ul {
+  margin: 32px auto;
+  width: 174.322px;
+  height: 24px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-icon li {
+  list-style: none;
+}
+.footer-line {
+  margin: 0 auto;
+  width: 872px;
+  height: 1px;
+  margin-top: 50px;
+  background: rgba(19, 19, 24, 0.1);
+}
+.copy {
+  text-align: center;
+  margin-top: 50px;
+}
+/* end footer section */
+
+/* Resposive for Mobile */
+@media screen and (max-width: 600px) {
+  .header-container {
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+  }
+  .banner-container img {
+    width: 335px;
+    height: 483px;
+    flex-shrink: 0;
+  }
+  .banner-title {
+    font-size: 22px;
+    margin-top: 200px;
+  }
+  .banner-des {
+    width: 304px;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .input-field {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 400px;
+    gap: 5px;
+  }
+  .main-section-container {
+    flex-direction: column;
+    width: 600px;
+  }
+  .main-text-container {
+    width: 300px;
+  }
+
+  .main-img img {
+    width: 335px;
+    height: 342px;
+    flex-shrink: 0;
+  }
+  .place-des {
+    padding: 0;
+    flex-direction: column;
+  }
+  .place-img-container {
+    flex-direction: column;
+  }
+  .place-des {
+    padding: 0;
+  }
+  .card-container {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+  }
+  .location {
+    position: relative;
+  }
+  .location-container {
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    flex-direction: column;
+  }
+  .price-container {
+    width: 335px;
+    height: 289px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.2);
+    background: rgba(233, 68, 68, 0.05);
+  }
+  .price {
+    position: relative;
+  }
+  .price-container {
+    position: absolute;
+    left: 80px;
+    top: 285px;
+  }
+  .headline {
+    font-size: 20px;
+  }
+  .info-pic {
+    position: relative;
+  }
+}
+/*  */
